@@ -1,0 +1,64 @@
+{
+  "logged_in_marker": [
+    {"by": "css", "value": "img[alt*='Google Account']"},
+    {"by": "text", "value": "PRO", "exact": false},
+    {"by": "css", "value": "[aria-label*='Tài khoản Google']"},
+    {"by": "css", "value": "[aria-label*='Google Account']"}
+  ],
+  "mode_dropdown": [
+    {"by": "role", "role": "combobox", "name": "Chế độ", "exact": false},
+    {"by": "role", "role": "button", "name": "Mode", "exact": false},
+    {"by": "text", "value": "Từ văn bản sang video", "exact": false}
+  ],
+  "mode_text2video": [
+    {"by": "text", "value": "Từ văn bản sang video", "exact": false},
+    {"by": "text", "value": "Text to video", "exact": false}
+  ],
+  "mode_components": [
+    {"by": "text", "value": "Tạo video từ các thành phần", "exact": false},
+    {"by": "text", "value": "Create video from ingredients", "exact": false}
+  ],
+  "mode_frames": [
+    {"by": "text", "value": "Tạo video từ các khung hình", "exact": false},
+    {"by": "text", "value": "Create video from frames", "exact": false}
+  ],
+  "model_dropdown": [
+    {"by": "role", "role": "combobox", "name": "Mô hình", "exact": false},
+    {"by": "role", "role": "combobox", "name": "Model", "exact": false},
+    {"by": "text", "value": "Veo 3.1", "exact": false}
+  ],
+  "aspect_dropdown": [
+    {"by": "role", "role": "combobox", "name": "Tỷ lệ khung hình", "exact": false},
+    {"by": "role", "role": "combobox", "name": "Aspect ratio", "exact": false}
+  ],
+  "outputs_dropdown": [
+    {"by": "role", "role": "combobox", "name": "Câu trả lời đầu ra cho mỗi", "exact": false},
+    {"by": "role", "role": "combobox", "name": "Outputs per prompt", "exact": false}
+  ],
+  "add_assets_button": [
+    {"by": "role", "role": "button", "name": "+", "exact": true},
+    {"by": "css", "value": "button[aria-label*='Add']"}
+  ],
+  "file_input": [
+    {"by": "css", "value": "input[type='file']"}
+  ],
+  "prompt_input": [
+    {"by": "placeholder", "value": "Nhập vào ô nhập câu lệnh để bắt đầu", "exact": false},
+    {"by": "placeholder", "value": "Enter a prompt", "exact": false},
+    {"by": "css", "value": "textarea"}
+  ],
+  "submit_button": [
+    {"by": "role", "role": "button", "name": "Generate", "exact": false},
+    {"by": "role", "role": "button", "name": "Gửi", "exact": false},
+    {"by": "css", "value": "button[aria-label*='Send']"}
+  ],
+  "preview_video": [
+    {"by": "css", "value": "video"},
+    {"by": "text", "value": "0:08", "exact": false}
+  ],
+  "download_button": [
+    {"by": "role", "role": "button", "name": "Download", "exact": false},
+    {"by": "role", "role": "button", "name": "Tải xuống", "exact": false},
+    {"by": "css", "value": "button[aria-label*='Download']"}
+  ]
+}

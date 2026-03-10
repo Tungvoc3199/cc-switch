@@ -1,0 +1,19 @@
+base_url: "https://labs.google/flow"
+mode: "text2video" # text2video | components | frames
+model: "Veo 3.1 - Fast"
+aspect_ratio: "16:9" # 16:9 | 9:16
+outputs_per_prompt: 1
+headless: false
+profile_dir: ".flow-profile"
+prompts_file: "assets/prompts.example.txt"
+images_dir: "assets/images"
+output_dir: "output"
+db_path: "flow_jobs.sqlite3"
+selectors_path: "assets/selectors.json"
+logs_dir: "logs"
+retry_limit: 2
+timeouts:
+  navigation_ms: 60000
+  action_ms: 25000
+  generation_ms: 600000
+  poll_interval_ms: 2000
