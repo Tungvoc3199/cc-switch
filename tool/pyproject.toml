@@ -1,0 +1,18 @@
+[project]
+name = "flow-local-automation"
+version = "0.1.0"
+description = "Local BYOA UI automation for Google Labs Flow"
+requires-python = ">=3.11"
+dependencies = [
+  "playwright>=1.47.0",
+  "typer>=0.12.5",
+  "pydantic>=2.8.2",
+  "PyYAML>=6.0.2"
+]
+
+[project.scripts]
+flow-tool = "tool.main:app"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
