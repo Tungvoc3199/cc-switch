@@ -1,0 +1,67 @@
+{
+  "logged_in_marker": [
+    { "kind": "role", "role": "button", "name": "Tài khoản Google" },
+    { "kind": "role", "role": "button", "name": "Google Account" },
+    { "kind": "text", "text": "PRO", "exact": false },
+    { "kind": "css", "css": "img[alt*='avatar'], button[aria-label*='Account']" }
+  ],
+  "human_challenge_marker": [
+    { "kind": "text", "text": "unusual traffic", "exact": false },
+    { "kind": "text", "text": "Xác minh bạn không phải người máy", "exact": false },
+    { "kind": "text", "text": "verify it's you", "exact": false },
+    { "kind": "text", "text": "2-Step Verification", "exact": false },
+    { "kind": "text", "text": "captcha", "exact": false }
+  ],
+  "mode_dropdown": [
+    { "kind": "role", "role": "combobox", "name": "Chế độ" },
+    { "kind": "role", "role": "button", "name": "Chế độ" },
+    { "kind": "role", "role": "combobox", "name": "Mode" },
+    { "kind": "css", "css": "[aria-label='Chế độ'], [aria-label='Mode']" }
+  ],
+  "model_dropdown": [
+    { "kind": "role", "role": "combobox", "name": "Mô hình" },
+    { "kind": "role", "role": "button", "name": "Mô hình" },
+    { "kind": "role", "role": "combobox", "name": "Model" },
+    { "kind": "css", "css": "[aria-label='Mô hình'], [aria-label='Model']" }
+  ],
+  "ratio_dropdown": [
+    { "kind": "role", "role": "combobox", "name": "Tỷ lệ khung hình" },
+    { "kind": "role", "role": "button", "name": "Tỷ lệ khung hình" },
+    { "kind": "role", "role": "combobox", "name": "Aspect ratio" },
+    { "kind": "css", "css": "[aria-label='Tỷ lệ khung hình'], [aria-label='Aspect ratio']" }
+  ],
+  "outputs_dropdown": [
+    { "kind": "role", "role": "combobox", "name": "Câu trả lời đầu ra cho mỗi" },
+    { "kind": "role", "role": "button", "name": "Câu trả lời đầu ra cho mỗi" },
+    { "kind": "role", "role": "combobox", "name": "Outputs per prompt" },
+    { "kind": "css", "css": "[aria-label='Câu trả lời đầu ra cho mỗi'], [aria-label='Outputs per prompt']" }
+  ],
+  "asset_add_button": [
+    { "kind": "role", "role": "button", "name": "+" },
+    { "kind": "role", "role": "button", "name": "Thêm" },
+    { "kind": "role", "role": "button", "name": "Add" },
+    { "kind": "css", "css": "button[aria-label*='Add'], button:has-text('+')" }
+  ],
+  "prompt_textarea": [
+    { "kind": "placeholder", "placeholder": "Nhập vào ô nhập câu lệnh để bắt đầu" },
+    { "kind": "placeholder", "placeholder": "Enter a prompt to get started" },
+    { "kind": "role", "role": "textbox", "name": "Prompt" },
+    { "kind": "css", "css": "textarea" }
+  ],
+  "submit_button": [
+    { "kind": "role", "role": "button", "name": "Generate" },
+    { "kind": "role", "role": "button", "name": "Tạo" },
+    { "kind": "label", "label": "Send" },
+    { "kind": "css", "css": "button[aria-label*='Send'], button:has(svg), button:has-text('→')" }
+  ],
+  "preview_duration_marker": [
+    { "kind": "text", "text": "0:08", "exact": false },
+    { "kind": "css", "css": "video" }
+  ],
+  "download_button": [
+    { "kind": "role", "role": "button", "name": "Tải xuống" },
+    { "kind": "role", "role": "button", "name": "Download" },
+    { "kind": "label", "label": "Download" },
+    { "kind": "css", "css": "button[aria-label*='Download'], [data-icon='download']" }
+  ]
+}
