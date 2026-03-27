@@ -1,0 +1,21 @@
+base_url: "https://labs.google/flow"
+mode: "text2video"   # text2video | components | frames
+model: "veo31_fast"  # veo31_fast | veo31_quality | veo2_fast | veo2_quality
+aspect_ratio: "16:9" # 16:9 | 9:16
+outputs_per_prompt: 1 # 1..4
+headless: false       # default headful; headless may trigger anti-bot
+
+profile_dir: "./runtime/profile"
+prompts_file: "./assets/prompts.txt"
+images_dir: "./assets/images" # optional, required for components/frames
+selectors_file: "./assets/selectors.json"
+database_path: "./runtime/jobs.db"
+output_dir: "./output"
+log_dir: "./runtime/logs"
+retry_limit: 2
+
+timeouts:
+  page_load_ms: 60000
+  action_ms: 30000
+  generate_ms: 900000
+  poll_interval_ms: 2000
